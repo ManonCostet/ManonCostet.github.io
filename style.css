@@ -1,0 +1,70 @@
+body{
+	font-family: arial;
+	/*background: rgb(300, 209, 202);*/
+	background: grey;
+	text-align: center;
+}
+
+h1{
+	color: red;
+	font-size:  48px;
+	font-family: arial;
+	/*background: linear-gradient((20deg, rgba(10, 10, 10, 0,5), rgba(200, 200, 200, 0,5)) , url("OMG.JPG");*/
+}
+
+img{
+	width: 600px;
+	height: 600px;
+	border-radius: 50%;
+	box-shadow: 2px, -2px, 5px, grey;
+}
+a{
+	text-decoration : none;
+	text-align: left;
+}
+
+ul{
+	text-align: center;
+}
+
+a: hover {
+	background: black;
+}
+
+p {
+	border: 5px dashed green;
+	padding: 50px;
+	margin-top: 50px
+	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	border-radius: 15px;
+}
+
+#box-black {
+	background: black;
+	padding: 20px;
+}
+
+#box-red {
+	background: red;
+}
+
+#box-yellow {
+	background: yellow;
+}
+
+#box-green {
+	background: green;
+}
+
+.box-pink {
+	background: pink;
+}
+
+.border-white {}
+
+.my-icon {
+	font-size: 40px;
+	color: pink;
+}
